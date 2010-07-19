@@ -1,0 +1,38 @@
+Hello and welcome to PyBarry!
+
+The aim of this project is to write a Python module to take advantage of the functionality of the Barry (http://netdirect.ca/barry) library.  The Barry library allows Linux users to connect to and use their BlackBerry devices on Linux via USB.
+
+To get started, checkout the source from SVN:
+
+svn co http://pybarry.unfuddle.com/svn/pybarry_main pybarry
+
+You will find the source code to the modules in the 'src' directory.
+
+Presently I am working on three distinct modules:
+
+PyBarry.simple -- a set of simple commands that you can run to get information from your BlackBerry
+PyBarry.core -- provides access to a core set of the Barry Library functions
+PyBarry.javaloader -- replicates the RIM JavaLoader functionality, only on Python
+
+Requirements
+============
+
+You will need to have libbarry installed on your system to build or install PyBarry
+
+Building/Installing
+===================
+
+Once you're happy with your source code, you can build and install it by typing in:
+
+python setup.py install
+
+Usage
+=====
+
+There will be a more comprehensive usage guide for you to follow on http://code.google.com/p/pybarry.  Look through the wikis there
+
+Support/Contact
+===============
+
+Sheran Gunasekera is the author and maintainer of PyBarry.  Get in touch with him at sheran.g <at> gmail.com
+
