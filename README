@@ -4,7 +4,7 @@ The aim of this project is to write a Python module to take advantage of the fun
 
 To get started, checkout the source from SVN:
 
-svn co http://pybarry.unfuddle.com/svn/pybarry_main pybarry
+svn checkout http://pybarry.googlecode.com/svn/trunk/ pybarry-read-only
 
 You will find the source code to the modules in the 'src' directory.
 
